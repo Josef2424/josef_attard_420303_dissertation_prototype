@@ -1,0 +1,24 @@
+#welcome-container {
+  text-align: center;
+  margin: 20px 0;
+  padding: 0 20px;
+}
+
+img#coa {
+  width: 100px;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+#welcometxt {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+#line {
+  height: 3px;
+  width: 200px;
+  margin: 0 auto;
+  background-color: var(--secondary-color);
+  border-radius: 0 0 33px 33px;
+}

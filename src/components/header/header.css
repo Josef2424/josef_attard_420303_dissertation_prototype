@@ -1,0 +1,38 @@
+.myHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#appName {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+#appName h1 {
+  font-size: 22px;
+  margin: 0;
+  letter-spacing: 0.5px;
+}
+
+#userProfile {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.user-icon {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+}
+
+#userName {
+  font-size: 14px;
+  font-weight: 500;
+}
